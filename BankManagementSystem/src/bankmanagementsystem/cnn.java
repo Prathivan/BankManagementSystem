@@ -6,7 +6,7 @@ public class cnn{
     public cnn(){
         try{
             
-            c=DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","BAba12!@");//location to store the data in database
+            c=DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","root");//location to store the data in database
             s=c.createStatement();  // statement for update query in mysql
         }catch (SQLException e){
             System.out.println(e);
